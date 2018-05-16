@@ -1,0 +1,33 @@
+body {
+    background-image: url("maze.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5%;
+    
+}
+.cell {
+    width: 40px;
+    height: 40px;
+    margin: 0;
+    background-color: rgba(0, 0, 0, 0);
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+}
+
+.wall {
+    background-color: rgba(66, 192, 44, 0.664);
+}
+#cornMan {
+    position: absolute;
+    width: 25px;
+    height: 39px;
+}
